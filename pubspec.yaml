@@ -1,0 +1,69 @@
+name: abo_hamdy
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.1.3 <4.0.0"
+
+flutter_gen:
+  output: lib/generated/flutter_gen/
+
+dependency_overrides:
+  intl: ^0.18.0  
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  flutter_localization: ^0.2.2
+  flutter_gen: ^5.3.2
+  logger: ^2.0.1
+  #?############## Routing
+  go_router: ^10.2.0
+  #?############## State management
+  flutter_bloc: ^8.1.3
+  shared_preferences:
+  #?############## Forms
+  flutter_form_builder: ^9.1.1
+  #?############## Dependency injection
+  get_it: ^7.6.4
+  injectable: ^2.4.4
+  #?############## Design
+  flutter_screenutil: ^5.9.0
+  loader_overlay: ^2.3.2
+  text_scroll: ^0.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  injectable_generator: ^2.6.2
+flutter:
+  assets:
+
+
+
+
+  fonts:
+    - family: Cairo
+      fonts:
+        - asset: assets/font/Cairo-Black-BF643384eef038f.ttf
+        - asset: assets/font/Cairo-Bold-BF643384ee22aa6.ttf
+        - asset: assets/font/Cairo-ExtraBold-BF643384ef234bf.ttf
+        - asset: assets/font/Cairo-ExtraLight-BF643384ef1b106.ttf
+        - asset: assets/font/Cairo-Light-BF643384ef1c5f4.ttf
+        - asset: assets/font/Cairo-Medium-BF643384ef5d193.ttf
+        - asset: assets/font/Cairo-Regular-BF643384ef31630.ttf
+        - asset:  assets/font/Cairo-SemiBold-BF643384ef0a2e7.ttf
+        - asset: assets/font/Cairo-VariableFont_slntwght-BF643384ef6bbca.ttf
+  uses-material-design: true
+
+
+
+
+
+

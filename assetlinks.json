@@ -1,0 +1,12 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.ulutech.abohamdi",
+    "sha256_cert_fingerprints":
+    ["A2:C0:4D:AD:C1:A4:3F:72:AE:0F:B4:5B:07:B5:CF:01:87:95:37:41:96:50:45:18:92:21:19:10:F8:FC:0B:DA"]
+  }
+}]
+
+
+
